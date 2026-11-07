@@ -1,6 +1,38 @@
 ---
 name: check-front-back-contract
-description: Compare a frontend consumer with a backend provider, including implementations on different Git branches, and report concrete API contract incompatibilities. Use for integration-readiness checks; do not use as a general PR review.
+description: Comparar los contratos entre el frontend React/TypeScript y el backend Kotlin/Spring Boot de Zervi, incluso en distintas branches, e identificar incompatibilidades concretas de la API. Usar para verificar la integración entre ambas capas.
+tools: Read, Write, Edit, Grep, Glob, Bash, Skill
+metadata:
+  tipo: agente
+  area:
+  - frontend
+  - backend
+  fase:
+  - revision
+  - integracion
+  tecnologias:
+  - typescript
+  - react
+  - kotlin
+  - spring-boot
+  - postgresql
+  - auth0
+  metodologia:
+  - scrum
+  herramientas:
+  - codex
+  requiere:
+  - github
+  grupo: "zervi"
+  autor:
+    nombre: Máximo Sallemi
+    github: MaximoSallemi
+  responsables:
+  - MaximoSallemi
+  madurez: usado-en-proyecto
+  relacionados:
+  - debug-local-integration
+  - ticket-test-matrix
 ---
 
 # Check Front/Back Contract

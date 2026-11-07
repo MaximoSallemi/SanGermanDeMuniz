@@ -1,6 +1,41 @@
 ---
 name: ticket-test-matrix
-description: Convert a ticket or specification into a traceable test matrix and audit the repository's real coverage against it. Use for acceptance-test planning or coverage reviews; do not implement tests unless the user asks.
+description: Convertir tickets o especificaciones de Zervi en una matriz trazable de pruebas y auditar la cobertura real del backend Kotlin/Spring Boot y frontend React/TypeScript. Usar para planificar pruebas de aceptación o revisar cobertura; implementar pruebas solo cuando se solicite.
+tools: Read, Write, Edit, Grep, Glob, Bash, Skill
+metadata:
+  tipo: agente
+  area:
+  - calidad
+  - frontend
+  - backend
+  fase:
+  - planificacion
+  - revision
+  tecnologias:
+  - kotlin
+  - spring-boot
+  - junit
+  - postgresql
+  - testcontainers
+  - typescript
+  - react
+  - vitest
+  metodologia:
+  - scrum
+  herramientas:
+  - codex
+  requiere:
+  - jira
+  grupo: "zervi"
+  autor:
+    nombre: Máximo Sallemi
+    github: MaximoSallemi
+  responsables:
+  - MaximoSallemi
+  madurez: usado-en-proyecto
+  relacionados:
+  - check-front-back-contract
+  - pre-pr-gate
 ---
 
 # Ticket Test Matrix

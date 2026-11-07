@@ -1,6 +1,37 @@
 ---
 name: fix-review-findings
-description: Validate PR review findings against the current branch, implement the findings that remain correct, verify the changes, and draft GitHub-ready replies. Use when the user asks to address review comments; do not blindly apply unverified feedback.
+description: Validar observaciones de revisión de PRs de Zervi contra el código vigente, aplicar las correcciones justificadas y preparar respuestas para GitHub. Usar al resolver comentarios de revisión del backend o frontend.
+tools: Read, Write, Edit, Grep, Glob, Bash, Skill
+metadata:
+  tipo: agente
+  area:
+  - frontend
+  - backend
+  fase:
+  - desarrollo
+  - revision
+  tecnologias:
+  - typescript
+  - react
+  - kotlin
+  - spring-boot
+  - postgresql
+  metodologia:
+  - scrum
+  herramientas:
+  - codex
+  requiere:
+  - github
+  grupo: "zervi"
+  autor:
+    nombre: Máximo Sallemi
+    github: MaximoSallemi
+  responsables:
+  - MaximoSallemi
+  madurez: usado-en-proyecto
+  relacionados:
+  - ticket-test-matrix
+  - pre-pr-gate
 ---
 
 # Fix Review Findings

@@ -1,6 +1,39 @@
 ---
 name: resolve-pr-merge-conflicts
-description: Resolve Git merge conflicts on a pull-request branch by preserving the intent of both sides, validating the integrated result, and preparing the branch for review. Use when a PR is conflictive or a merge/rebase is already stopped on conflicts; do not use for ordinary code review.
+description: Resolver conflictos de merge en branches de PRs de Zervi preservando la intención de ambos cambios y validando la integración del backend y frontend. Usar ante PRs con conflictos u operaciones Git detenidas por conflictos.
+tools: Read, Write, Edit, Grep, Glob, Bash, Skill
+metadata:
+  tipo: agente
+  area:
+  - frontend
+  - backend
+  fase:
+  - integracion
+  - revision
+  tecnologias:
+  - git
+  - typescript
+  - react
+  - kotlin
+  - spring-boot
+  - postgresql
+  - flyway
+  metodologia:
+  - scrum
+  herramientas:
+  - codex
+  requiere:
+  - github
+  grupo: "zervi"
+  autor:
+    nombre: Máximo Sallemi
+    github: MaximoSallemi
+  responsables:
+  - MaximoSallemi
+  madurez: usado-en-proyecto
+  relacionados:
+  - check-front-back-contract
+  - pre-pr-gate
 ---
 
 # Resolve PR Merge Conflicts

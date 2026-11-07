@@ -1,6 +1,38 @@
 ---
 name: debug-local-integration
-description: Diagnose local frontend/backend integration failures such as network errors, CORS, and HTTP 400/401/403/404/409 responses. Use for evidence-based diagnosis; do not implement fixes unless the user asks.
+description: Diagnosticar fallas de integración local entre el frontend React y el backend Spring Boot de Zervi, incluyendo red, CORS, autenticación Auth0 y errores HTTP. Usar para identificar la causa con evidencia; implementar correcciones solo cuando se solicite.
+tools: Read, Write, Edit, Grep, Glob, Bash, Skill
+metadata:
+  tipo: agente
+  area:
+  - frontend
+  - backend
+  fase:
+  - desarrollo
+  - integracion
+  tecnologias:
+  - typescript
+  - react
+  - kotlin
+  - spring-boot
+  - postgresql
+  - auth0
+  - docker
+  metodologia:
+  - scrum
+  herramientas:
+  - codex
+  requiere: []
+  grupo: "zervi"
+  autor:
+    nombre: Máximo Sallemi
+    github: MaximoSallemi
+  responsables:
+  - MaximoSallemi
+  madurez: usado-en-proyecto
+  relacionados:
+  - check-front-back-contract
+  - fix-review-findings
 ---
 
 # Debug Local Integration

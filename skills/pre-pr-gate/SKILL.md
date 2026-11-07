@@ -1,6 +1,39 @@
 ---
 name: pre-pr-gate
-description: Perform a final, evidence-based readiness check on the current branch before opening or updating a pull request. Use for pre-PR validation; do not create, push, merge, or post the PR unless explicitly requested.
+description: Verificar que una branch de Zervi esté lista para abrir o actualizar una PR, revisando alcance, contratos, migraciones, seguridad y checks aplicables a backend y frontend. Usar antes de enviar cambios a revisión.
+tools: Read, Write, Edit, Grep, Glob, Bash, Skill
+metadata:
+  tipo: agente
+  area:
+  - frontend
+  - backend
+  - calidad
+  fase:
+  - revision
+  tecnologias:
+  - typescript
+  - react
+  - kotlin
+  - spring-boot
+  - postgresql
+  - flyway
+  metodologia:
+  - scrum
+  herramientas:
+  - codex
+  requiere:
+  - github
+  grupo: "zervi"
+  autor:
+    nombre: Máximo Sallemi
+    github: MaximoSallemi
+  responsables:
+  - MaximoSallemi
+  madurez: usado-en-proyecto
+  relacionados:
+  - check-front-back-contract
+  - ticket-test-matrix
+  - fix-review-findings
 ---
 
 # Pre-PR Gate

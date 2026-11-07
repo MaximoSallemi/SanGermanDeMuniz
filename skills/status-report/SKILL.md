@@ -1,6 +1,33 @@
 ---
 name: zervi-reporte-semanal
-description: Preparar el informe semanal de Zervi cruzando tickets de Jira con pull requests y branches de GitHub. Usar para conocer avances, dependencias pendientes, demoras de revisión y distribución del trabajo, con evidencia enlazada y próximas acciones. Consultar las fuentes sin modificar tickets, PRs ni código.
+description: Preparar el informe semanal de Zervi cruzando tickets de Jira con PRs y branches de GitHub. Usar para conocer avances, dependencias pendientes, demoras de revisión y distribución del trabajo, con evidencia enlazada y próximas acciones. Consultar las fuentes sin modificar tickets, PRs ni código.
+tools: Read, Write, Edit, Grep, Glob, Bash, Skill
+metadata:
+  tipo: agente
+  area:
+  - gestion
+  fase:
+  - seguimiento
+  - revision
+  tecnologias:
+  - agnostico
+  metodologia:
+  - scrum
+  herramientas:
+  - codex
+  requiere:
+  - github
+  - jira
+  grupo: "zervi"
+  autor:
+    nombre: Máximo Sallemi
+    github: MaximoSallemi
+  responsables:
+  - MaximoSallemi
+  madurez: usado-en-proyecto
+  relacionados:
+  - pre-pr-gate
+  - ticket-test-matrix
 ---
 
 # Pulso semanal de Zervi
