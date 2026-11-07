@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debug Local Integration"
+  short_description: "Diagnose frontend and backend integration errors"
+  default_prompt: "Use $debug-local-integration to diagnose this local integration failure."

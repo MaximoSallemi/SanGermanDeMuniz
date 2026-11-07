@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix Review Findings"
+  short_description: "Validate and resolve PR review findings"
+  default_prompt: "Use $fix-review-findings to validate and address these review comments."

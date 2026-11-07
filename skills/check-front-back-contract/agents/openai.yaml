@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Front/Back Contract"
+  short_description: "Compare frontend and backend API contracts"
+  default_prompt: "Use $check-front-back-contract to compare these frontend and backend implementations."

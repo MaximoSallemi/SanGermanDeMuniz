@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pre-PR Gate"
+  short_description: "Run a final readiness check before a PR"
+  default_prompt: "Use $pre-pr-gate to check whether this branch is ready for a pull request."

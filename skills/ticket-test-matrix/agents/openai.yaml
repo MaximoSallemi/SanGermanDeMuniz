@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ticket Test Matrix"
+  short_description: "Map ticket requirements to test coverage"
+  default_prompt: "Use $ticket-test-matrix to audit this ticket against the current tests."
